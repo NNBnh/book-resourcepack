@@ -1,0 +1,33 @@
+{
+  "comment": "Model by sixfootblue",
+  "models": 
+  [
+	{
+      "model": "frog_head.jpm",
+      "part": "head", 
+      "attach": true,
+      "translate": [0, 0.5, 0],
+      "rotate": [0, 180, 0],
+	  "scale": 1.01
+    },
+	{
+	  "model": "angel_slime_body.jpm",
+      "part": "body", 
+      "attach": true,
+      "translate": [0, 7, -6],
+      "rotate": [-20, 180, 0],
+	  "scale": 1.5,
+	  "animations":
+      [
+        {
+		  "this.rx": "-head.rx - 0.349066",
+		  "this.ry": "head.ry + 3.14159",
+		  "this.rz": "-head.rz",
+		  "this.sy": "1.9 + (right_thigh.rx)",
+		  "this.sx": "1.4 - 0.5*(right_thigh.rx)",
+		  "this.sz": "this.sx"
+        }
+      ]
+	}
+  ]
+}

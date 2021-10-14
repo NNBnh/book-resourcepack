@@ -1,0 +1,33 @@
+{
+  "comment": "Designed by Sixfootblue with Cubik Studio - https://cubik.studio",
+  "createdWith": "Cubik Studio 2.8.438 Beta",
+  "texture": "textures/entity/rabbit/angel_slime_body",
+  "textureSize": [32,32],
+  "submodels": [
+    {
+      "id": "e0_slime_body",
+      "translate": [4.0,0.0,-4.0],
+      "boxes": [
+        {
+          "coordinates": [-8.0,-8.0,0.0,8.0,8.0,8.0],
+          "uvDown": [16,0,24,8],
+          "uvUp": [8,0,16,8],
+          "uvNorth": [24,8,32,16],
+          "uvSouth": [8,8,16,16],
+          "uvWest": [0,8,8,16],
+          "uvEast": [16,8,24,16]
+        }
+      ]
+    },
+    {
+      "id": "e1_slime_halo",
+      "translate": [3.0,-10.0,-3.0],
+      "boxes": [
+        {
+          "coordinates": [-6.0,-0.001,0.0,6.0,0.001,6.0],
+          "uvUp": [25,1,31,7]
+        }
+      ]
+    }
+  ]
+}
